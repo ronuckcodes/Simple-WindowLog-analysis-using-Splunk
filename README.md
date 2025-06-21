@@ -11,5 +11,5 @@ A beginner-friendly Splunk project analyzing Windows Event Logs (Security, Syste
  Setup  
 1. Splunk Forwarding: Enable `WinEventLog://Security`, `System`, `Application`.  
 2. Run Queries:  
-   index=main sourcetype=WinEventLog:Security EventCode=4624
+   index=main sourcetype=WinEventLog:Security EventCode=4624    and    
    index=main sourcetype=WinEventLog:Security EventCode=4625
